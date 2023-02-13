@@ -35,9 +35,9 @@ namespace my {
 	template<class T>
 	class forward_list_iterator {
 	public:
-		using value_type		= T;
+		using value_type	= T;
 		using const_reference	= const forward_list_iterator<value_type>&;
-		using node_pointer		= typename forward_list_node<T>::pointer;
+		using node_pointer	= typename forward_list_node<T>::pointer;
 
 		template<typename> friend class forward_list;
 
@@ -78,14 +78,14 @@ namespace my {
 	template <class T>
 	class forward_list {
 	public:
-		using value_type		= T;
-		using size_type			= size_t;
-		using reference			= value_type&;
+		using value_type	= T;
+		using size_type		= size_t;
+		using reference		= value_type&;
 		using const_reference	= const value_type&;
-		using iterator			= forward_list_iterator<value_type>;
+		using iterator		= forward_list_iterator<value_type>;
 		using const_iterator	= const forward_list_iterator<value_type>;
-		using node				= forward_list_node<value_type>;
-		using node_pointer		= typename node::pointer;
+		using node		= forward_list_node<value_type>;
+		using node_pointer	= typename node::pointer;
 
 	public:
 		forward_list() = default;
