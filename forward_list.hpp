@@ -1,5 +1,5 @@
-﻿#ifndef MODDERN_AND_EFFECTIVE_CPP_FORWARD_LIST_HPP
-#define MODDERN_AND_EFFECTIVE_CPP_FORWARD_LIST_HPP
+﻿#ifndef FORWARD_LIST_HPP
+#define FORWARD_LIST_HPP
 
 #include <functional>
 #include <memory>
@@ -227,4 +227,4 @@ namespace my {
 	};
 }
 
-#endif // !MODDERN_AND_EFFECTIVE_CPP_FORWARD_LIST_HPP
+#endif // !FORWARD_LIST_HPP
